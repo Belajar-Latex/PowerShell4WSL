@@ -55,3 +55,5 @@ test-path $profile
 > AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS 
 
 <img src="pictures/ps07-prop.png" width="800">
+
+<img src="pictures/ps08-prop.png" width="800">

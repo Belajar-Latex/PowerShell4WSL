@@ -7,7 +7,7 @@ Sebagian modifikasi lebih mudah dilakukan secara interaktif, sebagian dapat deng
 dan sebagian sebenarnya dapat dimodifikasi dalam mode *BASH*. 
 Untuk memodifikasi **PS** *$profile*, perlu meminta izin dalam mode **PS** (Administrator) dengan jawaban "Y":
 ```PS
-Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 <img src="pictures/ps05-prop.png" width="800">
 

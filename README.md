@@ -52,7 +52,12 @@ test-path $profile
 ```
 <img src="pictures/ps06-prop.png" width="800">
 
-Dengan demikian, kini dapat dilakukan modifikasi **PS** *$profile* sesuai dengan keyakinan dan kepercayaan masing-masing.
+Dengan demikian, kini dapat dilakukan modifikasi **PS** *$profile* sesuai dengan keyakinan dan kepercayaan masing-masing:
+
+```PS
+notepad $profile
+```
+
 Umpamanya, ingin menambahkan agar dapat exit **PS** dengan **CTRL-D**:
 
 ```PS
@@ -63,8 +68,33 @@ Lalu **SAVE**.
 
 <img src="pictures/ps07-prop.png" width="800">
 
+Atau, **PS** *$profile* dapat dimodifikasi lebih lanjut.
+Umpamanya; untuk membuat *Window Size* ukuran **VT100** yaitu **80 x 24**:
+
+```PS
+$tmpobj = get-host
+$tmpwin = $tmpobj.ui.rawui
+$tmpsize = $tmpwin.windowsize
+$tmpsize.height = 24
+$tmpsize.width  = 80
+$tmpwin.windowsize = $tmpsize
+```
+
+Lalu **SAVE**.
+
+Jika suatu hari, karena satu dan lain hal, ingin *menutup* kembali kemampuan menjalankan **PS** *$profile*;
+cukup dengan mode **PS** (Administrator) menjalankan:
+
+```PS
+Set-ExecutionPolicy -ExecutionPolicy Restricted
+```
+
 <img src="pictures/ps08-prop.png" width="800">
+
+Akibatnya, **PS** akan komplain tidak dapat menjalankan *$profile*:
 
 <img src="pictures/ps09-prop.png" width="800">
 
-> AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS 
+> AWAS: Dengan kata lain, jika muncul komplain seperti di atas; artinya tidak ada izin untuk menjalankan **PS** *$profile*. Lihat bagian atas untuk mendapatkan izin **Administrator** tersebut.
+
+Salam!

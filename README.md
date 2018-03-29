@@ -26,6 +26,10 @@ Setelah memilih *Font Size* menjadi **24pt**, silakan memilih tab **Layout** unt
 
 <img src="pictures/ps03-prop.png" width="800">
 
+Dalam *Window Size*, silakan memilih *Height* dan "Width* sesuai dengan keyakinan dan kepercayaan masing-masing.
+Dalam contoh ini, *Width* diubah menjadi **30** sehingga *Window Size* menjadi **120 x 30**.
+Sebagai penutup, silakan klik **OK**.
+
 <img src="pictures/ps04-prop.png" width="800">
 
 <img src="pictures/ps06-prop.png" width="800">

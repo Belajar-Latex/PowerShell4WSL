@@ -59,7 +59,7 @@ Umpamanya, ingin menambahkan agar dapat exit **PS** dengan **CTRL-D**:
 Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteCharOrExit
 ```
 
-Lalu **SAVE***.
+Lalu **SAVE**.
 
 <img src="pictures/ps07-prop.png" width="800">
 

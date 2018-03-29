@@ -11,6 +11,9 @@ Set-ExecutionPolicy RemoteSigned
 ```
 <img src="pictures/ps05-prop.png" width="800">
 
+Silakan menutup **PS** dalam *Administrator mode*, serta untuk selanjutnya silakan menggunakan **PS** dalam *user mode*.
+Silakan melakukan pengaturan ukuran *cursor* (umpama **Large**), *font* (umpama 24pt), serta *window* (umpama 120 x 30 karakter). 
+Silakan klik kanan serta memilih *Properties*.
 <img src="pictures/ps01-prop.png" width="800">
 
 <img src="pictures/ps02-prop.png" width="800">

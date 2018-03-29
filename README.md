@@ -16,3 +16,7 @@
 
 
 <img src="pictures/ps05-prop.png" width="800">
+
+
+<img src="pictures/ps06-prop.png" width="800">
+

@@ -22,6 +22,8 @@ Setelah memilih *Cursor Size* menjadi **Large**, silakan memilih tab **Font** un
 
 <img src="pictures/ps02-prop.png" width="800">
 
+Setelah memilih *Font Size* menjadi **24pt**, silakan memilih tab **Layout** untuk mengubah *Window Size*.
+
 <img src="pictures/ps03-prop.png" width="800">
 
 <img src="pictures/ps04-prop.png" width="800">

@@ -37,7 +37,7 @@ Pertama-tama, kita periksa apakah variabel *$profile* exist:
 ```PS
 $profile
 ```
-Existensi variabel tersebut tidak otomatis berarti berkas *profile* exist.
+Existensi variabel tersebut tidak otomatis berarti berkas *$profile* exist.
 Jadi, kita test juga:
 ```PS
 test-path $profile
@@ -45,6 +45,10 @@ test-path $profile
 Jika *False*, kita membuat berkas kosong. Karena tidak ada perintah linux *touch*, maka kita gunakan cara **PS**:
 ```PS
 New-Item -path $profile -type file -force
+```
+Seharusnya, sekarang berkasnya exist (*True*):
+```PS
+test-path $profile
 ```
 <img src="pictures/ps06-prop.png" width="800">
 

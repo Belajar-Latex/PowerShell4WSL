@@ -12,11 +12,13 @@ Set-ExecutionPolicy RemoteSigned
 <img src="pictures/ps05-prop.png" width="800">
 
 Silakan menutup **PS** dalam *Administrator mode*, serta untuk selanjutnya silakan menggunakan **PS** dalam *user mode*.
-Silakan melakukan pengaturan ukuran *Cursor* (umpama **Large**), *Font* (umpama **24pt**), 
+Silakan melakukan pengaturan ukuran *Cursor Size* (umpama **Large**), *Font Size* (umpama **24pt**), 
 serta *Window Size* (umpama **120 x 30** karakter). 
 Pertama-tama, silakan klik kanan serta memilih *Properties*.
 
 <img src="pictures/ps01-prop.png" width="800">
+
+Setelah memilih *Cursor Size* menjadi **Large**, silakan memilih tab **Font** untuk mengubah *Font Size*.
 
 <img src="pictures/ps02-prop.png" width="800">
 

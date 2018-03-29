@@ -1,11 +1,11 @@
-# Setup PowerShell (PS) for WSL (Windows Subsystem for LaTeX :)
+<h1>Setup PowerShell (PS) for<br>WSL (Windows Subsystem for LaTeX :)</h1>
 
 <img src="pictures/aen.jpg" width="150">
 
-*PowerShell* (untuk selanjutnya **PS**), harus sedikit dimodifikasi agar nyaman digunakan untuk WSL.
+*PowerShell* (untuk selanjutnya **PS**), harus sedikit dimodifikasi agar nyaman digunakan untuk WSL (Windows Subsystem for LaTeX :).
 Sebagian modifikasi lebih mudah dilakukan secara interaktif, sebagian dapat dengan **PS** *command line*,
 dan sebagian sebenarnya dapat dimodifikasi dalam mode *BASH*. 
-Untuk memodifikasi **PS** $profile, harus dalam mode **PS** (Admin) yang harus dijawab "Y":
+Untuk memodifikasi **PS** *$profile*, harus dalam mode **PS** (Administrator) yang harus dijawab "Y":
 ```PS
 Set-ExecutionPolicy RemoteSigned
 ```

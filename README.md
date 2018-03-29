@@ -57,3 +57,5 @@ test-path $profile
 <img src="pictures/ps07-prop.png" width="800">
 
 <img src="pictures/ps08-prop.png" width="800">
+
+<img src="pictures/ps09-prop.png" width="800">

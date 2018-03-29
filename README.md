@@ -52,10 +52,17 @@ test-path $profile
 ```
 <img src="pictures/ps06-prop.png" width="800">
 
-> AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS 
+Dengan demikian, kini dapat dilakukan modifikasi **PS** *$profile* sesuai dengan keyakinan dan kepercayaan masing-masing.
+Umpamanya, ingin menambahkan agar dapat exit **PS** dengan **CTRL-D**:
+
+```PS
+Set-PSReadlineKeyHandler -Key Ctrl+d -Function DeleteCharOrExit
+```
 
 <img src="pictures/ps07-prop.png" width="800">
 
 <img src="pictures/ps08-prop.png" width="800">
 
 <img src="pictures/ps09-prop.png" width="800">
+
+> AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS AWAS 

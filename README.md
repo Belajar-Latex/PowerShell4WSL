@@ -5,7 +5,7 @@
 *PowerShell* (untuk selanjutnya **PS**), harus sedikit dimodifikasi agar nyaman digunakan untuk WSL (Windows Subsystem for LaTeX :).
 Sebagian modifikasi lebih mudah dilakukan secara interaktif, sebagian dapat dengan **PS** *command line*,
 dan sebagian sebenarnya dapat dimodifikasi dalam mode *BASH*. 
-Untuk memodifikasi **PS** *$profile*, harus dalam mode **PS** (Administrator) yang harus dijawab "Y":
+Untuk memodifikasi **PS** *$profile*, perlu meminta izin dalam mode **PS** (Administrator) dengan jawaban "Y":
 ```PS
 Set-ExecutionPolicy RemoteSigned
 ```

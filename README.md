@@ -2,7 +2,7 @@
 
 <img src="pictures/aen.jpg" width="150">
 
-*PowerShell* (untuk selanjutnya **PS**), harus sedikit dimodifikasi agar nyaman digunakan untuk WSL (Windows Subsystem for LaTeX :).
+*PowerShell* (untuk selanjutnya **PS**), harus sedikit dimodifikasi agar nyaman digunakan untuk WSL (Windows Subsystem for LaTeX eh **LINUX** :).
 Sebagian modifikasi lebih mudah dilakukan secara interaktif, sebagian dapat dengan **PS** *command line*,
 dan sebagian sebenarnya dapat dimodifikasi dalam mode *BASH*. 
 Untuk memodifikasi **PS** *$profile*, perlu meminta izin dalam mode **PS** (Administrator) dengan jawaban "Y":

@@ -26,12 +26,26 @@ Setelah memilih *Font Size* menjadi **24pt**, silakan memilih tab **Layout** unt
 
 <img src="pictures/ps03-prop.png" width="800">
 
-Dalam *Window Size*, silakan memilih *Height* dan "Width* sesuai dengan keyakinan dan kepercayaan masing-masing.
-Dalam contoh ini, *Width* diubah menjadi **30** sehingga *Window Size* menjadi **120 x 30**.
+Dalam *Window Size*, silakan memilih *Height* dan *Width* sesuai dengan keyakinan dan kepercayaan masing-masing.
+Untuk contoh ini, *Width* diubah menjadi **30** sehingga *Window Size* menjadi **120 x 30**.
 Sebagai penutup, silakan klik **OK**.
 
 <img src="pictures/ps04-prop.png" width="800">
 
+Sekarang **PS** *$profile* siap untuk dimodifikasi.
+Pertama-tama, kita periksa apakah variabel *$profile* exist:
+```PS
+$profile
+```
+Existensi variabel tersebut tidak otomatis berarti berkas *profile* exist.
+Jadi, kita test juga:
+```PS
+test-path $profile
+```
+Jika *False*, kita membuat berkas kosong. Karena tidak ada perintah linux *touch*, maka kita gunakan cara **PS**:
+```PS
+New-Item -path $profile -type file -force
+```
 <img src="pictures/ps06-prop.png" width="800">
 
 <img src="pictures/ps07-prop.png" width="800">

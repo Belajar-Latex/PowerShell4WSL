@@ -109,5 +109,5 @@ dan belum tentu pula merupakan solusi terbaik :).
 Mohon kiranya memberikan tanggapan, terutama jika memiliki solusi alternatif.
 Semoga ini bermanfaat di masa mendatang, saat sudah lupa cara menyelesaikan masalah trivia ini.
 
-<a href="http://rahmatm.samik-ibrahim.vlsm.org">Rahmat M. Samik_ibrahim, revisi 
+<a href="http://rahmatm.samik-ibrahim.vlsm.org">Rahmat M. Samik-Ibrahim, revisi 
 03--02-Apr-2018</a>

@@ -2,7 +2,9 @@
 
 <img src="pictures/aen.jpg" width="150">
 
-*PowerShell* (untuk selanjutnya **PS**), harus sedikit dimodifikasi agar nyaman digunakan untuk WSL (Windows Subsystem for LaTeX eh **LINUX** :).
+WSL sekarang dapat dipanggil langsung melalui menu *START UP*. 
+Sebelumnya, WSL hanya dapat dipanggil melalui *PowerShell* (untuk selanjutnya **PS**).
+Karena itu, **PS** harus sedikit dimodifikasi agar nyaman digunakan untuk WSL (Windows Subsystem for LaTeX eh **LINUX** :).
 Sebagian modifikasi lebih mudah dilakukan secara interaktif, sebagian dapat dengan **PS** *command line*,
 dan sebagian sebenarnya dapat dimodifikasi dalam mode *BASH*. 
 Untuk memodifikasi **PS** *$profile*, perlu meminta izin dalam mode **PS** (Administrator) dengan jawaban "Y":
@@ -110,4 +112,4 @@ Mohon kiranya memberikan tanggapan, terutama jika memiliki solusi alternatif.
 Semoga ini bermanfaat di masa mendatang, saat sudah lupa cara menyelesaikan masalah trivia ini.
 
 <a href="http://rahmatm.samik-ibrahim.vlsm.org">Rahmat M. Samik-Ibrahim, revisi 
-03--02-Apr-2018</a>
+04--15-Jul-2018</a>
